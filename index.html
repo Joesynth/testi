@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title></title>
+	<link rel="icon" href="#.png">
+	<link rel="stylesheet" href="#.css"/>
+	<script src="#/#.js"></script>
+
+
+
+</head>
+<body>
+
+<button>Pegue!</button>
+<h1>🦁️</h1>
+
+
+	<script>
+
+function mudaPosicao() {
+let obj = document.querySelector("h1");
+obj.style.position = "absolute";
+obj.style.left = Math.random() * 100 + "%";
+obj.style.top = Math.random() * 100 + "%";
+let r = Math.random() * 360;
+obj.style.transform = "rotate(" + r + "deg)";
+
+}
+
+document.querySelector("button").onclick = mudaPosicao;
+
+	</script>
+</body>
+</html>
+		function mudaPosicao() {
+			let h1 = document.querySelector("h1");
+			let x = Math.random() * 100;
+			let y = Math.random()
+		}	
